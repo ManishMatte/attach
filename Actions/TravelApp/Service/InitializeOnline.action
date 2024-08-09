@@ -1,0 +1,9 @@
+{
+    "Service": "/attach/Services/TravelApp.service",
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "OnFailure": "/attach/Actions/TravelApp/Service/InitializeOnlineFailureMessage.action",
+    "ActionResult": {
+        "_Name": "init"
+    }
+}
